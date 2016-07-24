@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Regular.ttf">
+            <string>RobotoCondensed-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="V3w-kF-g0L">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="raL-mS-clz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Google" translatesAutoresizingMaskIntoConstraints="NO" id="x6Y-BF-dLH">
+                                        <rect key="frame" x="88" y="62" width="200" height="140"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="140" id="j6n-Kd-UZC"/>
+                                            <constraint firstAttribute="width" constant="200" id="mwb-9M-COe"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GDG Dev Fest Lviv 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hN6-XJ-cIA">
+                                        <rect key="frame" x="8" y="223" width="359" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="oJ4-b0-HIf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="RobotoCondensed-Regular" family="Roboto Condensed" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.61568627450000002" blue="0.34509803919999998" alpha="0.84859913789999997" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="hN6-XJ-cIA" secondAttribute="trailing" constant="8" id="2aS-sI-gtP"/>
+                                    <constraint firstItem="x6Y-BF-dLH" firstAttribute="top" secondItem="raL-mS-clz" secondAttribute="top" constant="62" id="6eu-7C-gA0"/>
+                                    <constraint firstItem="x6Y-BF-dLH" firstAttribute="centerX" secondItem="raL-mS-clz" secondAttribute="centerX" id="nUj-y0-Gjq"/>
+                                    <constraint firstItem="hN6-XJ-cIA" firstAttribute="top" secondItem="x6Y-BF-dLH" secondAttribute="bottom" constant="21" id="uMG-wC-UOq"/>
+                                    <constraint firstItem="hN6-XJ-cIA" firstAttribute="leading" secondItem="raL-mS-clz" secondAttribute="leading" constant="8" id="xVG-bC-ucl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="V3w-kF-g0L" secondAttribute="trailing" id="8nO-Hy-vNc"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="raL-mS-clz" secondAttribute="bottom" id="B0f-8X-Vge"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="V3w-kF-g0L" secondAttribute="bottom" id="bAv-T6-rKJ"/>
+                            <constraint firstAttribute="trailing" secondItem="raL-mS-clz" secondAttribute="trailing" id="etm-7r-ccy"/>
+                            <constraint firstItem="raL-mS-clz" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="f55-kz-UQB"/>
+                            <constraint firstItem="raL-mS-clz" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="jvC-kc-Z5q"/>
+                            <constraint firstItem="V3w-kF-g0L" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="kS4-0j-vsx"/>
+                            <constraint firstItem="V3w-kF-g0L" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="yM9-qI-HyG"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Google" width="300" height="200"/>
+        <image name="background" width="600" height="1123"/>
+    </resources>
+</document>
