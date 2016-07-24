@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>1061357124403-27nvr41g24svd3fl3i2cbu2ds90j136g.apps.googleusercontent.com</string>
+	<string>1061357124403-1fl28jop8s0ofi2q0t9tujf9jlgfqb30.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1061357124403-27nvr41g24svd3fl3i2cbu2ds90j136g</string>
+	<string>com.googleusercontent.apps.1061357124403-1fl28jop8s0ofi2q0t9tujf9jlgfqb30</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBIOZ3lPwiGrkS4oL0mtT2U3gsPG9v0FSs</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.kris.gdgapp</string>
+	<string>ua.org.gdg.devfest</string>
 	<key>PROJECT_ID</key>
 	<string>tardis-x</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1061357124403:ios:9b9cc6d831fdc7b7</string>
+	<string>1:1061357124403:ios:380187d6d20c0b26</string>
 	<key>DATABASE_URL</key>
 	<string>https://tardis-x.firebaseio.com</string>
 </dict>

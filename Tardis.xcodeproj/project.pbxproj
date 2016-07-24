@@ -36,8 +36,8 @@
 		573E82E21D451E6C0057C54B /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 573E82CF1D451E6C0057C54B /* RobotoCondensed-Light.ttf */; };
 		573E82E31D451E6C0057C54B /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 573E82D01D451E6C0057C54B /* RobotoCondensed-LightItalic.ttf */; };
 		573E82E41D451E6C0057C54B /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 573E82D11D451E6C0057C54B /* RobotoCondensed-Regular.ttf */; };
-		573E82E51D451E6C0057C54B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573E82D21D451E6C0057C54B /* GoogleService-Info.plist */; };
 		5771B0DF1D452EE70073691E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5771B0DE1D452EE70073691E /* Launch Screen.storyboard */; };
+		57F6C4F61D454E2A002F0A92 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57F6C4F51D454E2A002F0A92 /* GoogleService-Info.plist */; };
 		C8E5B36E789319EDC6238E2A /* Pods_Tardis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1BE9DCA26AAAEA221CAF57 /* Pods_Tardis.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,8 +74,8 @@
 		573E82CF1D451E6C0057C54B /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
 		573E82D01D451E6C0057C54B /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
 		573E82D11D451E6C0057C54B /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
-		573E82D21D451E6C0057C54B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5771B0DE1D452EE70073691E /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		57F6C4F51D454E2A002F0A92 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EEBDE0934F141C8DB98AEB6C /* Pods-Tardis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tardis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tardis/Pods-Tardis.debug.xcconfig"; sourceTree = "<group>"; };
 		FD1BE9DCA26AAAEA221CAF57 /* Pods_Tardis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tardis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -160,7 +160,7 @@
 				573E82CF1D451E6C0057C54B /* RobotoCondensed-Light.ttf */,
 				573E82D01D451E6C0057C54B /* RobotoCondensed-LightItalic.ttf */,
 				573E82D11D451E6C0057C54B /* RobotoCondensed-Regular.ttf */,
-				573E82D21D451E6C0057C54B /* GoogleService-Info.plist */,
+				57F6C4F51D454E2A002F0A92 /* GoogleService-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -249,13 +249,13 @@
 				573E82E21D451E6C0057C54B /* RobotoCondensed-Light.ttf in Resources */,
 				573E82DB1D451E6C0057C54B /* Roboto-MediumItalic.ttf in Resources */,
 				573E82D41D451E6C0057C54B /* Roboto-BlackItalic.ttf in Resources */,
+				57F6C4F61D454E2A002F0A92 /* GoogleService-Info.plist in Resources */,
 				573E82BD1D451E210057C54B /* BlogTableViewCellContent.xib in Resources */,
 				573E82D71D451E6C0057C54B /* Roboto-Italic.ttf in Resources */,
 				573E82DF1D451E6C0057C54B /* RobotoCondensed-Bold.ttf in Resources */,
 				573E82D61D451E6C0057C54B /* Roboto-BoldItalic.ttf in Resources */,
 				573E82DA1D451E6C0057C54B /* Roboto-Medium.ttf in Resources */,
 				573E82DC1D451E6C0057C54B /* Roboto-Regular.ttf in Resources */,
-				573E82E51D451E6C0057C54B /* GoogleService-Info.plist in Resources */,
 				573E82D31D451E6C0057C54B /* Roboto-Black.ttf in Resources */,
 				5771B0DF1D452EE70073691E /* Launch Screen.storyboard in Resources */,
 				573E82D81D451E6C0057C54B /* Roboto-Light.ttf in Resources */,
