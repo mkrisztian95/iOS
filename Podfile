@@ -10,5 +10,5 @@ target 'Tardis' do
   pod 'Kingfisher', '~> 2.0'
   pod 'MaterialKit', '~> 0.4'
   pod 'SwiftyJSON'
-  
+  pod 'GoogleMaps'
 end

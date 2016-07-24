@@ -422,7 +422,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Tardis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kris.gdgapp;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.org.gdg.devfest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "27467bd2-1e6e-4cb5-971c-c1e6b622002e";
 			};
@@ -436,7 +436,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Tardis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kris.gdgapp;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.org.gdg.devfest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "27467bd2-1e6e-4cb5-971c-c1e6b622002e";
 			};

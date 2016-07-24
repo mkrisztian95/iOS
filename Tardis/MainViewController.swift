@@ -18,12 +18,6 @@ class MainViewController: UIViewController, GIDSignInUIDelegate {
   @IBOutlet weak var signInButton: UIButton!
   let ref = FIRDatabase.database().reference()
   
-  
-  
-  
-  
-  
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     
