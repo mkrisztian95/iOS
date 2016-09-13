@@ -9,10 +9,11 @@
 import UIKit
 import Firebase
 import GoogleSignIn
-import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
+  var table1:FirstDayTableViewController! = nil
+  var table2:SecondDayTableViewController! = nil
   
   var window: UIWindow?
   
@@ -32,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
      GIDSignIn.sharedInstance().delegate = self
      */
     var configureError: NSError?
-    GMSServices.provideAPIKey("AIzaSyCEtkeXHgva5wSULamLxmU0ZYpSEZ-ln9w")
+    //    GMSServices.provideAPIKey("AIzaSyCEtkeXHgva5wSULamLxmU0ZYpSEZ-ln9w")
     //    FIRApp.configure()
     GIDSignIn.sharedInstance().delegate = self
     
@@ -42,6 +43,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
   
   func application(application: UIApplication,
                    openURL url: NSURL, options: [String: AnyObject]) -> Bool {
+    
+    
+    
+    
     if #available(iOS 9.0, *) {
       return GIDSignIn.sharedInstance().handleURL(url,
                                                   sourceApplication: options[UIApplicationOpenURLOptionsSourceApplicationKey] as? String,
@@ -55,6 +60,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
   
   func application(application: UIApplication,
                    openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+    
+    
+    
     if #available(iOS 9.0, *) {
       var options: [String: AnyObject] = [UIApplicationOpenURLOptionsSourceApplicationKey: sourceApplication!,
                                           UIApplicationOpenURLOptionsAnnotationKey: annotation!]

@@ -9,7 +9,6 @@ import SideMenu
 import Foundation
 import Firebase
 import GoogleSignIn
-import GoogleMaps
 
 class MainViewController: UIViewController, GIDSignInUIDelegate {
   
@@ -21,47 +20,10 @@ class MainViewController: UIViewController, GIDSignInUIDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    navigationController!.navigationBar.barTintColor = UIColor(red: 15/255.0, green: 157/255.0, blue: 88/255.0, alpha: 1.0)
+    navigationController!.navigationBar.barTintColor = APPConfig().appColor
     navigationController!.navigationBar.tintColor    = UIColor.whiteColor()
     
     GIDSignIn.sharedInstance().uiDelegate = self
-    
-    
-    
-    let camera = GMSCameraPosition.cameraWithLatitude(49.840044, longitude: 24.027737, zoom: 15)
-    var mapFrame = self.mapView.frame
-    mapFrame.origin.y = 0
-    let mapViewItem = GMSMapView.mapWithFrame(mapFrame, camera: camera)
-    mapViewItem.myLocationEnabled = true
-    
-    let marker = GMSMarker()
-    marker.position = CLLocationCoordinate2DMake(49.840044, 24.027737)
-    marker.title = "Lviv"
-    marker.snippet = "Svobody Ave"
-    marker.map = mapViewItem
-    
-    
-    self.mapView.addSubview(mapViewItem)
-    self.mapView.sendSubviewToBack(mapViewItem)
-    if let user = FIRAuth.auth()?.currentUser {
-      
-    } else {
-      
-    }
-    
-    
-    ref.observeEventType(FIRDataEventType.Value, withBlock: { (snapshot) in
-      let postDict = snapshot.value as! [String : AnyObject]
-      print("\(postDict)")
-    })
-    
-    
-    //    let prodRef = ref.child("prod")
-    //    let userRef = ref.child("prod/blog")
-    //    let refHandle = userRef.observeEventType(FIRDataEventType.Value, withBlock: { (snapshot) in
-    //      let postDict = snapshot.value as! [String : AnyObject]
-    //      print(postDict)
-    //    })
     
     setupSideMenu()
     setDefaults()
@@ -89,37 +51,5 @@ class MainViewController: UIViewController, GIDSignInUIDelegate {
   @IBAction func signInAction(sender: AnyObject) {
     GIDSignIn.sharedInstance().signIn()
   }
-  //  @IBAction private func changeSegment(segmentControl: UISegmentedControl) {
-  //    switch segmentControl {
-  //    case presentModeSegmentedControl:
-  //      let modes:[SideMenuManager.MenuPresentMode] = [.MenuSlideIn, .ViewSlideOut, .ViewSlideInOut, .MenuDissolveIn]
-  //      SideMenuManager.menuPresentMode = modes[segmentControl.selectedSegmentIndex]
-  //    case blurSegmentControl:
-  //      if segmentControl.selectedSegmentIndex == 0 {
-  //        SideMenuManager.menuBlurEffectStyle = nil
-  //      } else {
-  //        let styles:[UIBlurEffectStyle] = [.Dark, .Light, .ExtraLight]
-  //        SideMenuManager.menuBlurEffectStyle = styles[segmentControl.selectedSegmentIndex - 1]
-  //      }
-  //    default: break;
-  //    }
-  //  }
-  //  
-  //  @IBAction private func changeSlider(slider: UISlider) {
-  //    switch slider {
-  //    case darknessSlider:
-  //      SideMenuManager.menuAnimationFadeStrength = CGFloat(slider.value)
-  //    case shadowOpacitySlider:
-  //      SideMenuManager.menuShadowOpacity = slider.value
-  //    case shrinkFactorSlider:
-  //      SideMenuManager.menuAnimationTransformScaleFactor = CGFloat(slider.value)
-  //    case screenWidthSlider:
-  //      SideMenuManager.menuWidth = view.frame.width * CGFloat(slider.value)
-  //    default: break;
-  //    }
-  //  }
-  //  
-  //  @IBAction private func changeSwitch(switchControl: UISwitch) {
-  //    SideMenuManager.menuFadeStatusBar = switchControl.on
-  //  }
+  
 }

@@ -16,12 +16,12 @@ class BlogTableViewController: UITableViewController {
   
   var blogItemsArray:[[String:AnyObject]] = []
   
-  var contentHeight:CGFloat = 132.0
+  var contentHeight:CGFloat = 236.0
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    self.view.backgroundColor = UIColor(red: 15/255.0, green: 157/255.0, blue: 88/255.0, alpha: 1.0)
-    let blogRef = ref.child("prod/blog")
+    self.view.backgroundColor = APPConfig().appColor
+    let blogRef = ref.child("\(APPConfig().dataBaseRoot)/blog")
     blogRef.keepSynced(true)
     let refHandle = blogRef.observeEventType(FIRDataEventType.Value, withBlock: { (snapshot) in
       let postDict = snapshot.value as! [String : AnyObject]
@@ -61,10 +61,27 @@ class BlogTableViewController: UITableViewController {
   override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     let cell = UITableViewCell(style: .Default, reuseIdentifier: "row")
     
+    var color:UIColor = APPConfig().blueColor 
+    
+    
+    if indexPath.row % 2 == 0 {
+      color = APPConfig().redColor
+    }
+    
+    if indexPath.row % 3 == 0 {
+      color = APPConfig().yellowColor
+    }
+    
+    
+    if indexPath.row % 4 == 0 {
+      color = APPConfig().greenColor
+    }
+    
     let contentView = BlogTableViewCellContent(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.contentHeight))
-    contentView.setUp(self.blogItemsArray[indexPath.row])
+    contentView.setUp(self.blogItemsArray[indexPath.row], color: color)
     cell.addSubview(contentView)
     cell.backgroundColor = UIColor.clearColor()
+    APPConfig().setUpCellForUsage(cell)
     return cell
   }
   

@@ -50,14 +50,12 @@ import Firebase
     
   }
   
-  func setUp(obj:[String:AnyObject]) {
+  func setUp(obj:[String:AnyObject], color:UIColor) {
     let storageRef = storage.referenceForURL("gs://tardis-x.appspot.com")
-    
     
     let spaceRef = storageRef.child(obj["image"] as! String)
     
     
-    let starsRef = storageRef.child("images/stars.jpg")
     // Fetch the download URL
     spaceRef.downloadURLWithCompletion { (URL, error) -> Void in
       if (error != nil) {
@@ -73,7 +71,7 @@ import Firebase
     self.titleLabel.text = obj["title"] as? String
     self.briefView.text = obj["brief"] as? String
     
-    
+    titleLabel.backgroundColor = color
     self.titleLabel.adjustsFontSizeToFitWidth = true
   }
   

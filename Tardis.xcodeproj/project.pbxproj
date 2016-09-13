@@ -36,7 +36,20 @@
 		573E82E21D451E6C0057C54B /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 573E82CF1D451E6C0057C54B /* RobotoCondensed-Light.ttf */; };
 		573E82E31D451E6C0057C54B /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 573E82D01D451E6C0057C54B /* RobotoCondensed-LightItalic.ttf */; };
 		573E82E41D451E6C0057C54B /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 573E82D11D451E6C0057C54B /* RobotoCondensed-Regular.ttf */; };
+		576056121D47D72000C2A3B5 /* ScheduleHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 576056111D47D72000C2A3B5 /* ScheduleHeader.xib */; };
+		576056141D47D73100C2A3B5 /* ScheduleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576056131D47D73100C2A3B5 /* ScheduleHeader.swift */; };
 		5771B0DF1D452EE70073691E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5771B0DE1D452EE70073691E /* Launch Screen.storyboard */; };
+		57853EBD1D460E4100408A39 /* FirstDayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57853EBC1D460E4100408A39 /* FirstDayTableViewController.swift */; };
+		57853EBF1D460E5A00408A39 /* SecondDayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57853EBE1D460E5A00408A39 /* SecondDayTableViewController.swift */; };
+		57853EC11D460E8100408A39 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57853EC01D460E8100408A39 /* ScheduleViewController.swift */; };
+		57853EC31D46171000408A39 /* ScheduleItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57853EC21D46171000408A39 /* ScheduleItem.xib */; };
+		57853EC51D4617AC00408A39 /* ScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57853EC41D4617AC00408A39 /* ScheduleItem.swift */; };
+		57853EC71D46360C00408A39 /* APPConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57853EC61D46360C00408A39 /* APPConfig.swift */; };
+		57853EC91D46374C00408A39 /* SpeakerTableViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57853EC81D46374C00408A39 /* SpeakerTableViewItem.xib */; };
+		57853ECB1D4638AA00408A39 /* SpeakerTableViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57853ECA1D4638AA00408A39 /* SpeakerTableViewItem.swift */; };
+		57853ECD1D463A7900408A39 /* SpeakersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57853ECC1D463A7900408A39 /* SpeakersTableViewController.swift */; };
+		57853ECF1D46438100408A39 /* SpeakerTableViewItemRight.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57853ECE1D46438100408A39 /* SpeakerTableViewItemRight.xib */; };
+		57853ED11D46444F00408A39 /* SpeakerTableViewItemRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57853ED01D46444F00408A39 /* SpeakerTableViewItemRight.swift */; };
 		57F6C4F61D454E2A002F0A92 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57F6C4F51D454E2A002F0A92 /* GoogleService-Info.plist */; };
 		C8E5B36E789319EDC6238E2A /* Pods_Tardis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1BE9DCA26AAAEA221CAF57 /* Pods_Tardis.framework */; };
 /* End PBXBuildFile section */
@@ -74,7 +87,20 @@
 		573E82CF1D451E6C0057C54B /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
 		573E82D01D451E6C0057C54B /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
 		573E82D11D451E6C0057C54B /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		576056111D47D72000C2A3B5 /* ScheduleHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleHeader.xib; sourceTree = "<group>"; };
+		576056131D47D73100C2A3B5 /* ScheduleHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleHeader.swift; sourceTree = "<group>"; };
 		5771B0DE1D452EE70073691E /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		57853EBC1D460E4100408A39 /* FirstDayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstDayTableViewController.swift; sourceTree = "<group>"; };
+		57853EBE1D460E5A00408A39 /* SecondDayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondDayTableViewController.swift; sourceTree = "<group>"; };
+		57853EC01D460E8100408A39 /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		57853EC21D46171000408A39 /* ScheduleItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleItem.xib; sourceTree = "<group>"; };
+		57853EC41D4617AC00408A39 /* ScheduleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleItem.swift; sourceTree = "<group>"; };
+		57853EC61D46360C00408A39 /* APPConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPConfig.swift; sourceTree = "<group>"; };
+		57853EC81D46374C00408A39 /* SpeakerTableViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeakerTableViewItem.xib; sourceTree = "<group>"; };
+		57853ECA1D4638AA00408A39 /* SpeakerTableViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerTableViewItem.swift; sourceTree = "<group>"; };
+		57853ECC1D463A7900408A39 /* SpeakersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakersTableViewController.swift; sourceTree = "<group>"; };
+		57853ECE1D46438100408A39 /* SpeakerTableViewItemRight.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeakerTableViewItemRight.xib; sourceTree = "<group>"; };
+		57853ED01D46444F00408A39 /* SpeakerTableViewItemRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerTableViewItemRight.swift; sourceTree = "<group>"; };
 		57F6C4F51D454E2A002F0A92 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EEBDE0934F141C8DB98AEB6C /* Pods-Tardis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tardis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tardis/Pods-Tardis.debug.xcconfig"; sourceTree = "<group>"; };
 		FD1BE9DCA26AAAEA221CAF57 /* Pods_Tardis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tardis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,19 +147,10 @@
 		573E82971D451DD80057C54B /* Tardis */ = {
 			isa = PBXGroup;
 			children = (
-				573E82AA1D451E210057C54B /* AppDelegate.swift */,
-				573E82AB1D451E210057C54B /* Assets.xcassets */,
-				573E82AC1D451E210057C54B /* MainViewController.swift */,
-				573E82AD1D451E210057C54B /* BlogTableViewController.swift */,
-				573E82AE1D451E210057C54B /* PresentedViewController.swift */,
-				573E82AF1D451E210057C54B /* Main.storyboard */,
-				573E82B01D451E210057C54B /* SideMenuTableView.swift */,
-				573E82B11D451E210057C54B /* BlogTableViewCellContent.swift */,
-				573E82B21D451E210057C54B /* BlogTableViewCellContent.xib */,
-				573E82B31D451E210057C54B /* APPImages.swift */,
-				573E82B41D451E210057C54B /* AuthViewController.swift */,
+				57853ED71D478AAA00408A39 /* app */,
+				579FC3C21D479D250045B1AA /* Resources */,
 				573E82E71D451E850057C54B /* Supporting Files */,
-				5771B0DE1D452EE70073691E /* Launch Screen.storyboard */,
+				573E82A41D451DD80057C54B /* Info.plist */,
 			);
 			path = Tardis;
 			sourceTree = "<group>";
@@ -141,7 +158,8 @@
 		573E82E71D451E850057C54B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				573E82A41D451DD80057C54B /* Info.plist */,
+				573E82AA1D451E210057C54B /* AppDelegate.swift */,
+				573E82AB1D451E210057C54B /* Assets.xcassets */,
 				573E82C01D451E6C0057C54B /* Roboto-Black.ttf */,
 				573E82C11D451E6C0057C54B /* Roboto-BlackItalic.ttf */,
 				573E82C21D451E6C0057C54B /* Roboto-Bold.ttf */,
@@ -163,6 +181,83 @@
 				57F6C4F51D454E2A002F0A92 /* GoogleService-Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57853ED21D478A5000408A39 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				573E82AD1D451E210057C54B /* BlogTableViewController.swift */,
+				573E82B01D451E210057C54B /* SideMenuTableView.swift */,
+				57853EBC1D460E4100408A39 /* FirstDayTableViewController.swift */,
+				57853EBE1D460E5A00408A39 /* SecondDayTableViewController.swift */,
+				57853ECC1D463A7900408A39 /* SpeakersTableViewController.swift */,
+			);
+			name = Tables;
+			sourceTree = "<group>";
+		};
+		57853ED31D478A6D00408A39 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57853ED21D478A5000408A39 /* Tables */,
+				573E82AC1D451E210057C54B /* MainViewController.swift */,
+				573E82AE1D451E210057C54B /* PresentedViewController.swift */,
+				573E82B41D451E210057C54B /* AuthViewController.swift */,
+				57853EC01D460E8100408A39 /* ScheduleViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		57853ED41D478A8600408A39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				573E82B11D451E210057C54B /* BlogTableViewCellContent.swift */,
+				57853EC41D4617AC00408A39 /* ScheduleItem.swift */,
+				57853ECA1D4638AA00408A39 /* SpeakerTableViewItem.swift */,
+				57853ED01D46444F00408A39 /* SpeakerTableViewItemRight.swift */,
+				576056131D47D73100C2A3B5 /* ScheduleHeader.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		57853ED51D478A9400408A39 /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				573E82AF1D451E210057C54B /* Main.storyboard */,
+				573E82B21D451E210057C54B /* BlogTableViewCellContent.xib */,
+				5771B0DE1D452EE70073691E /* Launch Screen.storyboard */,
+				57853EC21D46171000408A39 /* ScheduleItem.xib */,
+				57853EC81D46374C00408A39 /* SpeakerTableViewItem.xib */,
+				57853ECE1D46438100408A39 /* SpeakerTableViewItemRight.xib */,
+				576056111D47D72000C2A3B5 /* ScheduleHeader.xib */,
+			);
+			name = Presentations;
+			sourceTree = "<group>";
+		};
+		57853ED61D478AA300408A39 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				573E82B31D451E210057C54B /* APPImages.swift */,
+				57853EC61D46360C00408A39 /* APPConfig.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		57853ED71D478AAA00408A39 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				57853ED31D478A6D00408A39 /* ViewControllers */,
+				57853ED51D478A9400408A39 /* Presentations */,
+				57853ED41D478A8600408A39 /* Views */,
+				57853ED61D478AA300408A39 /* Helpers */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		579FC3C21D479D250045B1AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		E25EE821D64D3F566DEF673C /* Pods */ = {
@@ -239,8 +334,10 @@
 				573E82DE1D451E6C0057C54B /* Roboto-ThinItalic.ttf in Resources */,
 				573E82DD1D451E6C0057C54B /* Roboto-Thin.ttf in Resources */,
 				573E82E31D451E6C0057C54B /* RobotoCondensed-LightItalic.ttf in Resources */,
+				576056121D47D72000C2A3B5 /* ScheduleHeader.xib in Resources */,
 				573E82B61D451E210057C54B /* Assets.xcassets in Resources */,
 				573E82BA1D451E210057C54B /* Main.storyboard in Resources */,
+				57853EC31D46171000408A39 /* ScheduleItem.xib in Resources */,
 				573E82E01D451E6C0057C54B /* RobotoCondensed-BoldItalic.ttf in Resources */,
 				573E82E11D451E6C0057C54B /* RobotoCondensed-Italic.ttf in Resources */,
 				573E82D91D451E6C0057C54B /* Roboto-LightItalic.ttf in Resources */,
@@ -248,6 +345,7 @@
 				573E82E41D451E6C0057C54B /* RobotoCondensed-Regular.ttf in Resources */,
 				573E82E21D451E6C0057C54B /* RobotoCondensed-Light.ttf in Resources */,
 				573E82DB1D451E6C0057C54B /* Roboto-MediumItalic.ttf in Resources */,
+				57853ECF1D46438100408A39 /* SpeakerTableViewItemRight.xib in Resources */,
 				573E82D41D451E6C0057C54B /* Roboto-BlackItalic.ttf in Resources */,
 				57F6C4F61D454E2A002F0A92 /* GoogleService-Info.plist in Resources */,
 				573E82BD1D451E210057C54B /* BlogTableViewCellContent.xib in Resources */,
@@ -256,6 +354,7 @@
 				573E82D61D451E6C0057C54B /* Roboto-BoldItalic.ttf in Resources */,
 				573E82DA1D451E6C0057C54B /* Roboto-Medium.ttf in Resources */,
 				573E82DC1D451E6C0057C54B /* Roboto-Regular.ttf in Resources */,
+				57853EC91D46374C00408A39 /* SpeakerTableViewItem.xib in Resources */,
 				573E82D31D451E6C0057C54B /* Roboto-Black.ttf in Resources */,
 				5771B0DF1D452EE70073691E /* Launch Screen.storyboard in Resources */,
 				573E82D81D451E6C0057C54B /* Roboto-Light.ttf in Resources */,
@@ -317,13 +416,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57853ECD1D463A7900408A39 /* SpeakersTableViewController.swift in Sources */,
 				573E82BB1D451E210057C54B /* SideMenuTableView.swift in Sources */,
 				573E82B51D451E210057C54B /* AppDelegate.swift in Sources */,
 				573E82B91D451E210057C54B /* PresentedViewController.swift in Sources */,
+				576056141D47D73100C2A3B5 /* ScheduleHeader.swift in Sources */,
 				573E82BE1D451E210057C54B /* APPImages.swift in Sources */,
+				57853ED11D46444F00408A39 /* SpeakerTableViewItemRight.swift in Sources */,
+				57853EBF1D460E5A00408A39 /* SecondDayTableViewController.swift in Sources */,
 				573E82BF1D451E210057C54B /* AuthViewController.swift in Sources */,
 				573E82B71D451E210057C54B /* MainViewController.swift in Sources */,
+				57853EBD1D460E4100408A39 /* FirstDayTableViewController.swift in Sources */,
 				573E82B81D451E210057C54B /* BlogTableViewController.swift in Sources */,
+				57853EC51D4617AC00408A39 /* ScheduleItem.swift in Sources */,
+				57853EC11D460E8100408A39 /* ScheduleViewController.swift in Sources */,
+				57853EC71D46360C00408A39 /* APPConfig.swift in Sources */,
+				57853ECB1D4638AA00408A39 /* SpeakerTableViewItem.swift in Sources */,
 				573E82BC1D451E210057C54B /* BlogTableViewCellContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Tardis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ua.org.gdg.devfest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,6 +544,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Tardis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ua.org.gdg.devfest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

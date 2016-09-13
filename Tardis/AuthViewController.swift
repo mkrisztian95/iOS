@@ -17,9 +17,11 @@ class AuthViewController: UIViewController, GIDSignInUIDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    
+    
     let addStatusBar = UIView()
     addStatusBar.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, 20);
-    addStatusBar.backgroundColor = UIColor(red: 15/255.0, green: 157/255.0, blue: 88/255.0, alpha: 1.0)
+    addStatusBar.backgroundColor = APPConfig().appColor 
     self.view.addSubview(addStatusBar)
     
     
@@ -35,8 +37,10 @@ class AuthViewController: UIViewController, GIDSignInUIDelegate {
     print(FIRAuth.auth()?.currentUser)
     FIRAuth.auth()?.addAuthStateDidChangeListener { auth, user in
       if let user = user {
+        NSUserDefaults.standardUserDefaults().setBool(true, forKey: "isLoggedIn")
         self.performSegueWithIdentifier("toNavigationController", sender: self)
       } else {
+        NSUserDefaults.standardUserDefaults().setBool(false, forKey: "isLoggedIn")
         
       }
     }
